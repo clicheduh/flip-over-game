@@ -39,3 +39,28 @@ h3 {
     height: 340px;
     margin: 20px auto;
 }
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 250%;
+        margin: 15px 0 0;
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        width: 330px;
+        height: 440px;
+        margin: 10px auto 35px;
+    }
+
+    h3 {
+        font-size: 140%;
+        margin-bottom: 0;
+        line-height: 30px;
+    }
+
+    #congrats {
+        padding: 0 40px;
+    }
+}

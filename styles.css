@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 100%;
+    background-color: #c3e4fd;
+    text-align: center;
+}
+
+h1 {
+    font-size: 330%;
+    color: #5000ca;
+    margin: 40px 0 0;
+    font-family: 'Bungee Shade', cursive;
+}
+
+img {
+    margin: 5px;
+}
+
+h3 {
+    font-size: 180%;
+    font-family: 'Bungee', cursive;
+    color: #5000ca;
+    margin-bottom: -50px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 440px;
+    height: 340px;
+    margin: 20px auto;
+}
